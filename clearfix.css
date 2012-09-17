@@ -1,0 +1,5 @@
+.clearfix:after { /* Does not support some legacy browsers like FF 3.5 */
+    content: "";
+    display: block;
+    clear: both;
+}
